@@ -83,7 +83,7 @@ export default function HomePage() {
                 </a>
               </li>
               <li className="flex h-full items-center border-b-2 border-transparent hover:border-blue-900 transition-colors ml-auto">
-                <a className="inline-flex items-center text-gray-600 hover:text-blue-900 transition-colors" href="/login">
+                <a className="inline-flex items-center text-gray-600 hover:text-blue-900 transition-colors" href="">
                   Log in
                 </a>
               </li>
@@ -94,13 +94,13 @@ export default function HomePage() {
           <div className="ml-auto flex items-center gap-2">
             <a 
               className="hidden xl:inline-flex items-center justify-center px-6 py-3 rounded bg-blue-600 text-white font-medium transition-all hover:bg-blue-700 border border-blue-600 hover:border-blue-700" 
-              href="/contact-sales"
+              href=""
             >
               Contact Sales
             </a>
             <a 
               className="hidden xl:inline-flex items-center justify-center px-6 py-3 rounded bg-white text-blue-900 font-medium transition-all hover:bg-gray-50 border border-blue-600" 
-              href="/trial"
+              href=""
             >
               Start free trial
             </a>
@@ -140,13 +140,13 @@ export default function HomePage() {
                 <div className="flex flex-col md:flex-row gap-2">
                   <a 
                     className="inline-flex items-center justify-center px-5 py-3.5 text-lg rounded bg-white text-blue-900 font-medium transition-all hover:bg-gray-50 border border-blue-600" 
-                    href="/contact-sales"
+                    href=""
                   >
                     Contact Sales
                   </a>
                   <a 
                     className="inline-flex items-center justify-center px-5 py-3.5 text-lg rounded bg-blue-600 text-white font-medium transition-all hover:bg-blue-700 border border-blue-600 hover:border-blue-700" 
-                    href="/demo"
+                    href=""
                   >
                     Watch a demo
                   </a>
@@ -364,7 +364,7 @@ export default function HomePage() {
             <div className="mt-8 flex justify-center">
               <a 
                 className="inline-flex items-center justify-center px-5 py-3.5 text-lg rounded bg-blue-600 text-white font-medium transition-all hover:bg-blue-700 border border-blue-600 hover:border-blue-700" 
-                href="/omnix"
+                href=""
               >
                 Learn more
               </a>
