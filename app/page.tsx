@@ -2,6 +2,7 @@
 
 import React from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function HomePage() {
   return (
@@ -424,6 +425,217 @@ export default function HomePage() {
           </div>
         </section>
       </main>
+
+       {/* Footer */}
+       <footer className="bg-slate-800 text-white py-12">
+        <div className="max-w-7xl mx-auto px-4">
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8">
+            {/* Dashlane Omnix */}
+            <div className="col-span-1">
+              <h3 className="text-white font-semibold mb-4 text-sm uppercase tracking-wide">
+                DASHLANE OMNIX™
+              </h3>
+              <ul className="space-y-2">
+                <li><span className="text-gray-300 text-sm">Platform overview</span></li>
+                <li><span className="text-gray-300 text-sm">Credential Protection</span></li>
+                <li><span className="text-gray-300 text-sm">Password Management</span></li>
+                <li><span className="text-gray-300 text-sm">Dashlane Secure Cloud</span></li>
+                <li><Link href="/business-password-manager/platform" className="text-gray-300 hover:text-white text-sm transition-colors">Contact Sales</Link></li>
+                <li><span className="text-gray-300 text-sm">Request a demo</span></li>
+              </ul>
+              
+              <h4 className="text-white font-semibold mt-6 mb-3 text-sm uppercase tracking-wide">
+                BUSINESS
+              </h4>
+              <ul className="space-y-2">
+                <li><span className="text-gray-300 hover:text-white text-sm transition-colors">Business password manager</span></li>
+                <li><Link href="/pricing" className="text-gray-300 hover:text-white text-sm transition-colors">Plans & pricing</Link></li>
+                <li><span className="text-gray-300 text-sm">Try free for 14 days</span></li>
+                <li><span className="text-gray-300 text-sm">Buy now</span></li>
+              </ul>
+
+              <h4 className="text-white font-semibold mt-6 mb-3 text-sm uppercase tracking-wide">
+                PERSONAL
+              </h4>
+              <ul className="space-y-2">
+                <li><span className="text-gray-300 text-sm">Personal password manager</span></li>
+                <li><span className="text-gray-300 text-sm">Family password manager</span></li>
+                <li><span className="text-gray-300 text-sm">Plans & pricing</span></li>
+                <li><span className="text-gray-300 text-sm">Download for free</span></li>
+                <li><span className="text-gray-300 text-sm">Buy now</span></li>
+              </ul>
+            </div>
+
+            {/* Features */}
+            <div className="col-span-1">
+              <h3 className="text-white font-semibold mb-4 text-sm uppercase tracking-wide">
+                FEATURES
+              </h3>
+              <ul className="space-y-2">
+                <li><span className="text-gray-300 text-sm">Autofill</span></li>
+                <li><span className="text-gray-300 text-sm">Dark Web Monitoring</span></li>
+                <li><span className="text-gray-300 text-sm">Passkeys</span></li>
+                <li><span className="text-gray-300 text-sm">Password Generator</span></li>
+                <li><span className="text-gray-300 text-sm">Passwordless</span></li>
+                <li><Link href="/features/credential-protection" className="text-gray-300 hover:text-white text-sm transition-colors">Proactive credential security</Link></li>
+                <li><Link href="/sso" className="text-gray-300 hover:text-white text-sm transition-colors">SSO integration</Link></li>
+                <li><span className="text-gray-300 text-sm">Username Generator</span></li>
+              </ul>
+
+              <h4 className="text-white font-semibold mt-6 mb-3 text-sm uppercase tracking-wide">
+                WHY DASHLANE
+              </h4>
+              <ul className="space-y-2">
+                <li><Link href="/why-dashlane" className="text-gray-300 hover:text-white text-sm transition-colors">The Dashlane difference</Link></li>
+                <li><span className="text-gray-300 text-sm">For enterprises</span></li>
+                <li><Link href="/why-dashlane/for-small-businesses" className="text-gray-300 hover:text-white text-sm transition-colors">For small & midsize businesses</Link></li>
+                <li><span className="text-gray-300 text-sm">Industry recognition</span></li>
+                <li><span className="text-gray-300 text-sm">Compare Dashlane</span></li>
+              </ul>
+
+              <h4 className="text-white font-semibold mt-6 mb-3 text-sm uppercase tracking-wide">
+                INDUSTRIES
+              </h4>
+              <ul className="space-y-2">
+                <li><span className="text-gray-300 text-sm">Automotive</span></li>
+                <li><span className="text-gray-300 text-sm">Education</span></li>
+                <li><span className="text-gray-300 text-sm">Financial services</span></li>
+                <li><span className="text-gray-300 text-sm">Technology</span></li>
+                <li><span className="text-gray-300 text-sm">Healthcare</span></li>
+              </ul>
+            </div>
+
+            {/* Customer Support */}
+            <div className="col-span-1">
+              <h3 className="text-white font-semibold mb-4 text-sm uppercase tracking-wide">
+                CUSTOMER SUPPORT
+              </h3>
+              <ul className="space-y-2">
+                <li><span className="text-gray-300 text-sm">Support Center</span></li>
+                <li><span className="text-gray-300 text-sm">Get started</span></li>
+                <li><span className="text-gray-300 text-sm">Account & security</span></li>
+                <li><span className="text-gray-300 text-sm">Apps & devices</span></li>
+                <li><span className="text-gray-300 text-sm">Logins & data</span></li>
+                <li><span className="text-gray-300 text-sm">For admins</span></li>
+              </ul>
+
+              <h4 className="text-white font-semibold mt-6 mb-3 text-sm uppercase tracking-wide">
+                RESOURCES
+              </h4>
+              <ul className="space-y-2">
+                <li><span className="text-gray-300 text-sm">Resource Library</span></li>
+                <li><span className="text-gray-300 text-sm">E-books & mini-guides</span></li>
+                <li><span className="text-gray-300 text-sm">White papers & reports</span></li>
+                <li><span className="text-gray-300 text-sm">Customer success stories</span></li>
+                <li><span className="text-gray-300 text-sm">Admin resources</span></li>
+                <li><span className="text-gray-300 text-sm">Webinars & events</span></li>
+              </ul>
+
+              <h4 className="text-white font-semibold mt-6 mb-3 text-sm uppercase tracking-wide">
+                TECHNOLOGY
+              </h4>
+              <ul className="space-y-2">
+                <li><Link href="/security" className="text-gray-300 hover:text-white text-sm transition-colors">Zero-knowledge security</Link></li>
+                <li><span className="text-gray-300 text-sm">Security principles & architecture</span></li>
+                <li><span className="text-gray-300 text-sm">Trust Center</span></li>
+                <li><span className="text-gray-300 text-sm">For developers</span></li>
+                <li><Link href="/security/researchers" className="text-gray-300 hover:text-white text-sm transition-colors">Bug bounty program</Link></li>
+                <li><span className="text-gray-300 text-sm">System status</span></li>
+              </ul>
+            </div>
+
+            {/* Company */}
+            <div className="col-span-1">
+              <h3 className="text-white font-semibold mb-4 text-sm uppercase tracking-wide">
+                COMPANY
+              </h3>
+              <ul className="space-y-2">
+                <li><Link href="/about" className="text-gray-300 hover:text-white text-sm transition-colors">About Dashlane</Link></li>
+                <li><span className="text-gray-300 text-sm">Our leadership</span></li>
+                <li><span className="text-gray-300 text-sm">Careers at Dashlane</span></li>
+              </ul>
+
+              <h4 className="text-white font-semibold mt-6 mb-3 text-sm uppercase tracking-wide">
+                BLOG
+              </h4>
+              <ul className="space-y-2">
+                <li><span className="text-gray-300 text-sm">What's new</span></li>
+                <li><span className="text-gray-300 text-sm">Data & culture</span></li>
+                <li><span className="text-gray-300 text-sm">Product news & tips</span></li>
+                <li><span className="text-gray-300 text-sm">Engineering</span></li>
+                <li><span className="text-gray-300 text-sm">Workplace tips</span></li>
+              </ul>
+
+              <h4 className="text-white font-semibold mt-6 mb-3 text-sm uppercase tracking-wide">
+                PARTNER WITH US
+              </h4>
+              <ul className="space-y-2">
+                <li><span className="text-gray-300 text-sm">Resellers & resources</span></li>
+                <li><span className="text-gray-300 text-sm">Become a partner</span></li>
+                <li><span className="text-gray-300 text-sm">Partner portal</span></li>
+                <li><span className="text-gray-300 text-sm">Submit a deal</span></li>
+                <li><span className="text-gray-300 text-sm">Affiliates</span></li>
+                <li><span className="text-gray-300 text-sm">Influencers</span></li>
+              </ul>
+            </div>
+
+            {/* Log In & Download */}
+            <div className="col-span-1">
+              <h3 className="text-white font-semibold mb-4 text-sm uppercase tracking-wide">
+                LOG IN
+              </h3>
+              <ul className="space-y-2">
+                <li><span className="text-gray-300 text-sm">Personal App</span></li>
+                <li><span className="text-gray-300 text-sm">Admin Console</span></li>
+              </ul>
+
+              <h4 className="text-white font-semibold mt-6 mb-3 text-sm uppercase tracking-wide">
+                DOWNLOAD
+              </h4>
+              <ul className="space-y-2">
+                <li><span className="text-gray-300 text-sm">For iOS</span></li>
+                <li><span className="text-gray-300 text-sm">For Android</span></li>
+              </ul>
+
+              <h4 className="text-white font-semibold mt-6 mb-3 text-sm uppercase tracking-wide">
+                STAY IN TOUCH
+              </h4>
+              <div className="flex gap-3">
+                <span className="text-gray-300 transition-colors">
+                  <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M20 10c0-5.523-4.477-10-10-10S0 4.477 0 10c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V10h2.54V7.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V10h2.773l-.443 2.89h-2.33v6.988C16.343 19.128 20 14.991 20 10z" clipRule="evenodd"/>
+                  </svg>
+                </span>
+                <span className="text-gray-300 transition-colors">
+                  <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M6.29 18.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0020 3.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.073 4.073 0 01.8 7.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 010 16.407a11.616 11.616 0 006.29 1.84"/>
+                  </svg>
+                </span>
+                <span className="text-gray-300 transition-colors">
+                  <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M2 3a1 1 0 011-1h14a1 1 0 011 1v14a1 1 0 01-1 1H3a1 1 0 01-1-1V3zm6.5 6.5v3.793a.5.5 0 00.854.353l2.792-2.792a.5.5 0 000-.708L9.354 7.354a.5.5 0 00-.854.353V9.5z" clipRule="evenodd"/>
+                  </svg>
+                </span>
+                <span className="text-gray-300 transition-colors">
+                  <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M4.5 2A2.5 2.5 0 002 4.5v11A2.5 2.5 0 004.5 18h11a2.5 2.5 0 002.5-2.5v-11A2.5 2.5 0 0015.5 2h-11zm11 5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM10 8a2 2 0 100 4 2 2 0 000-4z" clipRule="evenodd"/>
+                  </svg>
+                </span>
+                <span className="text-gray-300 transition-colors">
+                  <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M10 0C4.477 0 0 4.477 0 10s4.477 10 10 10 10-4.477 10-10S15.523 0 10 0zm3.5 6.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zm-7 0a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zm7 7c-.5.5-1.5 1-3.5 1s-3-.5-3.5-1"/>
+                  </svg>
+                </span>
+                <span className="text-gray-300 transition-colors">
+                  <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M16.338 16.338H13.67V12.16c0-.995-.017-2.277-1.387-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248H8.014v-8.59h2.559v1.174h.037c.356-.675 1.227-1.387 2.526-1.387 2.703 0 3.203 1.778 3.203 4.092v4.711zM5.005 6.575a1.548 1.548 0 11-.003-3.096 1.548 1.548 0 01.003 3.096zm-1.337 9.763H6.34v-8.59H3.667v8.59zM17.668 1H2.328C1.595 1 1 1.581 1 2.298v15.403C1 18.418 1.595 19 2.328 19h15.34c.734 0 1.332-.582 1.332-1.299V2.298C19 1.581 18.402 1 17.668 1z" clipRule="evenodd"/>
+                  </svg>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
 
       <style jsx>{`
         @keyframes scroll {
